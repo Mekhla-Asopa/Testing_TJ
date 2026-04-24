@@ -1,0 +1,13 @@
+{
+  "id": "72e27e8e-f53f-4067-905d-48c421a70fca",
+  "name": "test_grpc",
+  "type": "front-end",
+  "slug": "33353818-ebe2-4d1f-a6e8-d676ca9a4ee7",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "floppydisk",
+  "tooljetVersion": "3.21.25-beta-ee"
+}
