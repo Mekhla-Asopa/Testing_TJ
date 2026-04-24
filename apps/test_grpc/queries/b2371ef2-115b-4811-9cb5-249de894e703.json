@@ -4,9 +4,9 @@
   "options": {
     "transformationLanguage": "javascript",
     "enableTransformation": false,
-    "service": "addsvc.Add",
-    "method": "Concat",
-    "raw_message": "{\n  \"a\": \"hello\",\n  \"b\": \"tJ\"\n}"
+    "service": "test.TestService",
+    "method": "SayHello",
+    "raw_message": "{\n  \"name\": \"Tooljet\",\n\n}"
   },
   "dataSourceId": "4fee1e54-d623-4e91-9d26-f86406a35c5b",
   "appVersionId": "9247147b-77de-4ed3-8833-5afd49968079"
