@@ -1,6 +1,6 @@
 {
   "id": "4fee1e54-d623-4e91-9d26-f86406a35c5b",
-  "name": "grpcv2_4",
+  "name": "grpcv2_4_trest",
   "kind": "grpcv2",
   "type": "default",
   "pluginId": null,

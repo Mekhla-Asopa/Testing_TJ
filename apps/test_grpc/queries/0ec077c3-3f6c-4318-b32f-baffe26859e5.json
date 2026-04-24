@@ -4,9 +4,9 @@
   "options": {
     "transformationLanguage": "javascript",
     "enableTransformation": false,
-    "service": "test.TestService",
-    "method": "SayHello",
-    "raw_message": "{\"name\":\"Prasad\"}"
+    "service": "addsvc.Add",
+    "method": "Sum",
+    "raw_message": "{\n  \"a\": 3,\n    \"b\": 4\n}"
   },
   "dataSourceId": "5aa8e9b6-d096-4acf-8c24-0822c12fd5a1",
   "appVersionId": "9247147b-77de-4ed3-8833-5afd49968079"
