@@ -3,7 +3,7 @@
   "name": "test_grpc",
   "type": "front-end",
   "slug": "33353818-ebe2-4d1f-a6e8-d676ca9a4ee7",
-  "isPublic": null,
+  "isPublic": true,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
