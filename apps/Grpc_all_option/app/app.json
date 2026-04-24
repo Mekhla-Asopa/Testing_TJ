@@ -1,0 +1,13 @@
+{
+  "id": "563d9806-3980-4e84-a602-ae7bbbd72225",
+  "name": "Grpc_all_option",
+  "type": "front-end",
+  "slug": "67c06978-0321-414c-b6c1-db83c9906b66",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "grid",
+  "tooljetVersion": "3.21.24-beta-ee"
+}
