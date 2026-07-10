@@ -1,0 +1,107 @@
+{
+  "id": "1fa6c45a-3696-4ca4-b66a-6154bad01791",
+  "name": "grpcv2_3",
+  "kind": "grpcv2",
+  "type": "default",
+  "options": {
+    "development": {
+      "url": "grpcb.in:9001",
+      "scopes": "read, write",
+      "audience": "",
+      "auth_url": "",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "header",
+      "proto_files": "server_reflection",
+      "ssl_enabled": true,
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "proto_file_url": "",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "selected_services": [],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_files_pattern": "**/*.proto",
+      "proto_files_directory": ""
+    },
+    "production": {
+      "url": "grpcb.in:9001",
+      "scopes": "read, write",
+      "audience": "",
+      "auth_url": "",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "header",
+      "proto_files": "server_reflection",
+      "ssl_enabled": true,
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "proto_file_url": "",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "selected_services": [],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_files_pattern": "**/*.proto",
+      "proto_files_directory": ""
+    },
+    "staging": {
+      "url": "grpcb.in:9001",
+      "scopes": "read, write",
+      "audience": "",
+      "auth_url": "",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": "",
+      "auth_type": "none",
+      "client_id": "",
+      "grant_type": "authorization_code",
+      "client_auth": "header",
+      "proto_files": "server_reflection",
+      "ssl_enabled": true,
+      "add_token_to": "header",
+      "header_prefix": "Bearer ",
+      "proto_file_url": "",
+      "ssl_certificate": "none",
+      "access_token_url": "",
+      "selected_services": [],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_files_pattern": "**/*.proto",
+      "proto_files_directory": ""
+    }
+  }
+}
