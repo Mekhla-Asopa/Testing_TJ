@@ -1,12 +1,12 @@
 {
-  "id": "28ade77e-1882-498f-bb9f-bee38d4c0f57",
+  "id": "f23c0cd8-e8c3-4d64-bf96-d078d3bb76c8",
   "type": "front-end",
-  "slug": "f1dff710-9689-47cf-b912-3b856b9af402",
+  "slug": "4cff37b5-b8f0-4d62-957a-d09d764684b4",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "draghandle",
+  "icon": "share",
   "tooljetVersion": "3.21.66-beta-ee"
 }

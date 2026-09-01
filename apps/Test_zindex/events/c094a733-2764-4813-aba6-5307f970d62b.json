@@ -1,0 +1,18 @@
+{
+  "id": "c094a733-2764-4813-aba6-5307f970d62b",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "024a95d2-6de7-453b-b13f-2403456f66d9",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button1",
+    "queryName": "runjs1",
+    "parameters": {}
+  },
+  "sourceId": "a5641a76-daef-4ed0-a5a0-55b8ee431025",
+  "target": "component",
+  "appVersionId": "876e2d7f-4cbd-4279-956b-d7d1b1643658"
+}

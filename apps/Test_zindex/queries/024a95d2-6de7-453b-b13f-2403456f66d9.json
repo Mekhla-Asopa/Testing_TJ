@@ -1,0 +1,12 @@
+{
+  "id": "024a95d2-6de7-453b-b13f-2403456f66d9",
+  "name": "runjs1",
+  "options": {
+    "code": "function generateRandomString(length) {\n  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';\n  let result = '';\n  for (let i = 0; i < length; i++) {\n    result += characters.charAt(Math.floor(Math.random() * characters.length));\n  }\n  return result;\n}\n\nreturn generateRandomString(10); // Generates a 10-character random string",
+    "parameters": []
+  },
+  "dataSourceId": "b5de0da8-fc3d-4732-b31e-e1c2bf7e074b",
+  "appVersionId": "876e2d7f-4cbd-4279-956b-d7d1b1643658",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
