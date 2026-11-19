@@ -1,0 +1,63 @@
+{
+  "id": "1e170392-f22b-421c-82d0-33e5fe9b9e95",
+  "name": "saveMssqlFailed",
+  "options": {
+    "operation": "create_row",
+    "table_id": "b4f9343d-4319-434b-9099-f932b514ab24",
+    "create_row": {
+      "0": {
+        "column": "datasource_id",
+        "value": "b827e610-1ec0-4349-b4fc-ec9b05efe47e"
+      },
+      "1": {
+        "column": "datasource_name",
+        "value": "mssql_ai"
+      },
+      "2": {
+        "column": "datasource_type",
+        "value": "mssql"
+      },
+      "3": {
+        "column": "query_id",
+        "value": "fa987565-1293-4236-ad30-d18d2e1be3f7"
+      },
+      "4": {
+        "column": "query_name",
+        "value": "mssql_ai_connectivity"
+      },
+      "5": {
+        "column": "execution_date",
+        "value": "{{moment().format('YYYY-MM-DDTHH:mm:ssZ')}}"
+      },
+      "6": {
+        "column": "tester",
+        "value": "{{globals.currentUser?.email || 'QA user'}}"
+      },
+      "7": {
+        "column": "status",
+        "value": "Failed"
+      },
+      "8": {
+        "column": "response",
+        "value": ""
+      },
+      "9": {
+        "column": "error_message",
+        "value": "{{queries.mssql_ai_connectivity.error?.message || queries.mssql_ai_connectivity.error || 'Query failed'}}"
+      },
+      "10": {
+        "column": "execution_time",
+        "value": "{{queries.mssql_ai_connectivity.responseTime || 0}}"
+      },
+      "11": {
+        "column": "environment",
+        "value": "Development"
+      }
+    },
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "efede1c0-f241-43d8-889f-79c2bcded4cf",
+  "appVersionId": "c9aa3db6-0fd2-4adf-8dce-cd33b9127245",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

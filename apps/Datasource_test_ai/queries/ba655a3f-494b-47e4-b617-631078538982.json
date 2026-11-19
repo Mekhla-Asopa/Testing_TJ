@@ -1,0 +1,44 @@
+{
+  "id": "ba655a3f-494b-47e4-b617-631078538982",
+  "name": "getDiscoveredPlugins",
+  "options": {
+    "operation": "list_rows",
+    "list_rows": {
+      "limit": 100,
+      "offset": 0,
+      "where_filters": {
+        "has-ds": {
+          "id": "has-ds",
+          "column": "datasource_name",
+          "operator": "is",
+          "value": "notNull"
+        },
+        "active": {
+          "id": "active",
+          "column": "active",
+          "operator": "eq",
+          "value": true
+        }
+      },
+      "order_filters": {
+        "sort-ds": {
+          "id": "sort-ds",
+          "column": "datasource_name",
+          "order": "asc"
+        }
+      }
+    },
+    "runOnPageLoad": true,
+    "table_id": "65b16c6d-ea24-47b3-969f-6732c342b88e",
+    "table_name": "",
+    "delete_rows": {
+      "limit": 1,
+      "order_column": "id",
+      "order_column_id": "d93eed94-86bd-4414-bbdd-e6874ce5360d"
+    }
+  },
+  "dataSourceId": "efede1c0-f241-43d8-889f-79c2bcded4cf",
+  "appVersionId": "c9aa3db6-0fd2-4adf-8dce-cd33b9127245",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

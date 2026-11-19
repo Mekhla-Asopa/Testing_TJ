@@ -1,0 +1,14 @@
+{
+  "id": "c24eb088-b8ad-452e-82db-7d62e09e7467",
+  "name": "Load tests for datasource",
+  "index": 0,
+  "event": {
+    "eventId": "onSelect",
+    "queryId": "3423df6f-ff83-4e9b-ad84-fe4457a1839c",
+    "actionId": "run-query",
+    "queryName": "getTestCases"
+  },
+  "sourceId": "d8b454ab-5c44-4cb8-b4ac-4859bf965266",
+  "target": "component",
+  "appVersionId": "c9aa3db6-0fd2-4adf-8dce-cd33b9127245"
+}

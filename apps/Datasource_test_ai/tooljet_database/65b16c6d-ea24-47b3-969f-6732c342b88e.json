@@ -1,0 +1,234 @@
+{
+  "id": "65b16c6d-ea24-47b3-969f-6732c342b88e",
+  "table_name": "plugins",
+  "schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "integer",
+        "column_default": "nextval(\"b7d6646d-e87b-4cdf-887f-0de948315f76_id_seq\"",
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "constraints_type": {
+          "is_not_null": true,
+          "is_primary_key": true,
+          "is_unique": false
+        },
+        "keytype": "PRIMARY KEY",
+        "column_id": "d93eed94-86bd-4414-bbdd-e6874ce5360d",
+        "configurations": {}
+      },
+      {
+        "column_name": "name",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": true,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "d6c4d0d8-9b6c-40b4-b800-d9e2730ab9f6",
+        "configurations": {}
+      },
+      {
+        "column_name": "category",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "b53eeb22-5acd-4e30-a8bd-52b0ca3d341b",
+        "configurations": {}
+      },
+      {
+        "column_name": "version",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "de07d818-8591-45b7-a134-90a1bb983720",
+        "configurations": {}
+      },
+      {
+        "column_name": "environment",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "dcc68ad7-7afa-4adb-b447-f03e62478155",
+        "configurations": {}
+      },
+      {
+        "column_name": "tester",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "da4c8ec9-ba71-4bab-9f6d-95e451e4ae94",
+        "configurations": {}
+      },
+      {
+        "column_name": "status",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "57022279-05fc-49da-a4e0-90ddc60c2377",
+        "configurations": {}
+      },
+      {
+        "column_name": "release_status",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "40594665-ad64-4c52-9143-6d7c682f4704",
+        "configurations": {}
+      },
+      {
+        "column_name": "last_tested",
+        "data_type": "timestamp with time zone",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "152793ef-4683-43ec-9f86-ca07cfa0d827",
+        "configurations": {}
+      },
+      {
+        "column_name": "datasource_name",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "364fb830-4570-47f0-9a08-163e8f2c1f70",
+        "configurations": {}
+      },
+      {
+        "column_name": "datasource_type",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "72338924-e259-4974-b6ca-56c638cdf0ed",
+        "configurations": {}
+      },
+      {
+        "column_name": "discovered_at",
+        "data_type": "timestamp with time zone",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "ca8868e3-3697-47d5-8a47-21825ac98cba",
+        "configurations": {}
+      },
+      {
+        "column_name": "active",
+        "data_type": "boolean",
+        "column_default": "false",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "6237a0ba-e482-4415-a571-cc453a67aee7",
+        "configurations": {}
+      },
+      {
+        "column_name": "datasource_id",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "b692a02a-c5f0-4609-a7e1-8b9930e36cf3",
+        "configurations": {}
+      },
+      {
+        "column_name": "configuration_state",
+        "data_type": "character varying",
+        "column_default": "Query Configuration Required",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "4ac90a26-f830-4e4c-81aa-4acf3e24dc7e",
+        "configurations": {}
+      }
+    ],
+    "foreign_keys": []
+  }
+}

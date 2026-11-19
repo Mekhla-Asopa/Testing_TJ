@@ -1,0 +1,14 @@
+{
+  "id": "fb944d26-8e2c-4ccf-a4b8-fff3514b68aa",
+  "isPlugin": true,
+  "kind": "openai",
+  "options": {
+    "development": {
+      "apiKey": "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"
+    },
+    "production": {},
+    "staging": {}
+  },
+  "pluginKind": "openai",
+  "type": "default"
+}
