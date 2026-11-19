@@ -1,0 +1,14 @@
+{
+  "id": "75fe56fd-4f2b-4922-a955-e14aff5523a0",
+  "name": "Basic_list",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "operation": "list_tables",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "319fc9a0-b40a-406d-bc50-dccb041adc17",
+  "appVersionId": "c4fa9729-7993-4b2d-a24c-71835029c84f",
+  "kind": "servicenow",
+  "dataSourceType": "default"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2e3c8f09-61d4-41ec-bcbc-ce930f0f82b6",
+  "isPlugin": true,
+  "kind": "servicenow",
+  "options": {
+    "development": {
+      "access_token_url": "https://dev202781.service-now.com/oauth_token.do",
+      "add_token_to": "header",
+      "auth_type": "oauth2",
+      "auth_url": "https://dev202781.service-now.com/oauth_auth.do",
+      "client_id": "2ddacdb4e4b74490ab715d079b558677",
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "instance_url": "https://dev202781.service-now.com",
+      "scopes": "useraccount"
+    },
+    "production": {
+      "access_token_url": "https://dev202781.service-now.com/oauth_token.do",
+      "add_token_to": "header",
+      "auth_type": "oauth2",
+      "auth_url": "https://dev202781.service-now.com/oauth_auth.do",
+      "client_id": "2ddacdb4e4b74490ab715d079b558677",
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "instance_url": "https://dev202781.service-now.com",
+      "scopes": "useraccount"
+    },
+    "staging": {
+      "access_token_url": "https://dev202781.service-now.com/oauth_token.do",
+      "add_token_to": "header",
+      "auth_type": "oauth2",
+      "auth_url": "https://dev202781.service-now.com/oauth_auth.do",
+      "client_id": "2ddacdb4e4b74490ab715d079b558677",
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "instance_url": "https://dev202781.service-now.com",
+      "scopes": "useraccount"
+    }
+  },
+  "pluginKind": "servicenow",
+  "type": "default"
+}

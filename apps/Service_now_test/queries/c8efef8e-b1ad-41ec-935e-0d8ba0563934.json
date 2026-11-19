@@ -1,0 +1,14 @@
+{
+  "id": "c8efef8e-b1ad-41ec-935e-0d8ba0563934",
+  "name": "servicenow2",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "operation": "list_tables",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "2e3c8f09-61d4-41ec-bcbc-ce930f0f82b6",
+  "appVersionId": "c4fa9729-7993-4b2d-a24c-71835029c84f",
+  "kind": "servicenow",
+  "dataSourceType": "default"
+}
