@@ -1,0 +1,17 @@
+{
+  "id": "0835567d-bc3d-4f46-813c-70cee38dba05",
+  "name": "googlesheetsv21",
+  "options": {
+    "operation": "list_all_spreadsheets",
+    "majorDimension": "ROWS",
+    "valueRenderOption": "FORMATTED_VALUE",
+    "dateTimeRenderOption": "SERIAL_NUMBER",
+    "ValueInputOption": "RAW",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false
+  },
+  "dataSourceId": "4d677add-872d-44b4-bc3a-4ffb1b0f8bc4",
+  "appVersionId": "547deda3-6a48-4463-9050-ed236356a988",
+  "kind": "googlesheetsv2",
+  "dataSourceType": "default"
+}
