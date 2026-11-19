@@ -1,0 +1,33 @@
+{
+  "id": "319fc9a0-b40a-406d-bc50-dccb041adc17",
+  "isPlugin": true,
+  "kind": "servicenow",
+  "options": {
+    "development": {
+      "add_token_to": "header",
+      "auth_type": "basic",
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "instance_url": "https://dev202781.service-now.com",
+      "username": "admin"
+    },
+    "production": {
+      "add_token_to": "header",
+      "auth_type": "basic",
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "instance_url": "https://dev202781.service-now.com",
+      "username": "admin"
+    },
+    "staging": {
+      "add_token_to": "header",
+      "auth_type": "basic",
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "instance_url": "https://dev202781.service-now.com",
+      "username": "admin"
+    }
+  },
+  "pluginKind": "servicenow",
+  "type": "default"
+}
