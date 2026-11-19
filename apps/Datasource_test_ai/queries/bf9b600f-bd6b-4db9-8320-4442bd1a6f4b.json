@@ -1,0 +1,26 @@
+{
+  "id": "bf9b600f-bd6b-4db9-8320-4442bd1a6f4b",
+  "name": "getDatasourceQueries",
+  "options": {
+    "operation": "list_rows",
+    "table_id": "15f0e276-c1ee-4d4f-9cf6-7df800deb513",
+    "list_rows": {
+      "limit": 200,
+      "offset": 0,
+      "where_filters": {},
+      "order_filters": {
+        "sort-query": {
+          "id": "sort-query",
+          "column": "query_name",
+          "order": "asc"
+        }
+      }
+    },
+    "runOnPageLoad": false,
+    "runOnDependencyChange": false
+  },
+  "dataSourceId": "efede1c0-f241-43d8-889f-79c2bcded4cf",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "87570bdf-0eb4-4876-aaa1-a6c87a8f0452",
+  "name": "queryDiscoveryLimitation",
+  "type": "Html",
+  "pageId": "48416b12-abe1-4c77-9425-829f955bc4c5",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;background:var(--cc-appBackground-surface)\"><div style=\"height:100%;padding:16px 18px;border:1px solid #f59e0b;border-radius:10px;background:#fffbeb;box-sizing:border-box;color:#78350f\"><div style=\"font-weight:700;font-size:14px\">Datasource found, queries could not be discovered</div><div style=\"font-size:12px;line-height:18px;margin-top:5px\">The available ToolJet MCP can list connected datasources and inspect queries only inside this target app. It does not expose workspace-wide or cross-application query discovery, dynamic execution by a selected query ID, or runtime query creation. Add the actual datasource queries to this app, or provide an approved internal ToolJet API datasource. Until then, queries remain Blocked and are never marked Passed.</div></div></div>"
+    },
+    "dynamicHeight": {
+      "value": false
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "3f0792ce-f160-42f5-8360-f1440bc21789",
+      "type": "desktop",
+      "top": 120,
+      "left": 2,
+      "width": 39,
+      "height": 112,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "87570bdf-0eb4-4876-aaa1-a6c87a8f0452",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "01e40666-8e25-46de-8b00-6a312be906bf",
+      "type": "mobile",
+      "top": 120,
+      "left": 2,
+      "width": 39,
+      "height": 112,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "87570bdf-0eb4-4876-aaa1-a6c87a8f0452",
+      "dimensionUnit": "count"
+    }
+  ]
+}

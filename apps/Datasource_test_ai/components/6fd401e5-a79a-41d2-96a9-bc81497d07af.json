@@ -1,0 +1,53 @@
+{
+  "id": "6fd401e5-a79a-41d2-96a9-bc81497d07af",
+  "name": "queryKpis",
+  "type": "Html",
+  "pageId": "48416b12-abe1-4c77-9425-829f955bc4c5",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;background:var(--cc-appBackground-surface)\"><div style=\"height:100%;display:grid;grid-template-columns:repeat(4,1fr);gap:10px\"><div style=\"padding:16px;border:1px solid #e2e8f0;border-radius:12px;background:#fff\"><div style=\"font-size:12px;color:#64748b\">_ai Datasources</div><div style=\"font-size:30px;font-weight:700;color:#0f172a;margin-top:12px\">{{(queries.getDiscoveredPlugins.data || []).length}}</div></div><div style=\"padding:16px;border:1px solid #e2e8f0;border-radius:12px;background:#fff\"><div style=\"font-size:12px;color:#64748b\">Actual Queries Discovered</div><div style=\"font-size:30px;font-weight:700;color:#0e7490;margin-top:12px\">0</div></div><div style=\"padding:16px;border:1px solid #e2e8f0;border-radius:12px;background:#fff\"><div style=\"font-size:12px;color:#64748b\">Executable Queries</div><div style=\"font-size:30px;font-weight:700;color:#f59e0b;margin-top:12px\">0</div></div><div style=\"padding:16px;border:1px solid #e2e8f0;border-radius:12px;background:#fff\"><div style=\"font-size:12px;color:#64748b\">Discovery State</div><div style=\"font-size:30px;font-weight:700;color:#dc2626;margin-top:12px\">Blocked</div></div></div></div>"
+    },
+    "dynamicHeight": {
+      "value": false
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "a7f3d85f-189c-471a-a961-53fff05a7eba",
+      "type": "desktop",
+      "top": 312,
+      "left": 2,
+      "width": 39,
+      "height": 136,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "6fd401e5-a79a-41d2-96a9-bc81497d07af",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "6c60545d-4e4c-4290-abcf-d30e723d3787",
+      "type": "mobile",
+      "top": 312,
+      "left": 2,
+      "width": 39,
+      "height": 136,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "6fd401e5-a79a-41d2-96a9-bc81497d07af",
+      "dimensionUnit": "count"
+    }
+  ]
+}

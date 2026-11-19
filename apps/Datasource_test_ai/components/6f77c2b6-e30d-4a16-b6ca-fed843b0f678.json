@@ -1,0 +1,53 @@
+{
+  "id": "6f77c2b6-e30d-4a16-b6ca-fed843b0f678",
+  "name": "manualConfigurationGuide",
+  "type": "Html",
+  "pageId": "48416b12-abe1-4c77-9425-829f955bc4c5",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;background:var(--cc-appBackground-surface)\"><div style=\"height:100%;padding:18px;border:1px solid #e2e8f0;border-radius:12px;background:#fff;color:#334155;box-sizing:border-box\"><div style=\"font-size:14px;font-weight:700;color:#0f172a\">Required capability to complete execution</div><ol style=\"font-size:12px;line-height:20px;margin:10px 0 0 18px;padding:0\"><li>Expose an authenticated ToolJet internal API that lists app queries with query ID, name, kind, datasource ID, and non-secret options.</li><li>Expose execution of an existing query by query ID and return status, response, error, and duration.</li><li>Approve ToolJet DB access for the query catalog and append-only query execution history.</li></ol></div></div>"
+    },
+    "dynamicHeight": {
+      "value": false
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1bb1cd6e-51e8-4a05-9061-41c25ff035fd",
+      "type": "desktop",
+      "top": 888,
+      "left": 2,
+      "width": 39,
+      "height": 150,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "6f77c2b6-e30d-4a16-b6ca-fed843b0f678",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "9a8700c8-1041-4701-b243-64f312676c3d",
+      "type": "mobile",
+      "top": 888,
+      "left": 2,
+      "width": 39,
+      "height": 150,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "6f77c2b6-e30d-4a16-b6ca-fed843b0f678",
+      "dimensionUnit": "count"
+    }
+  ]
+}

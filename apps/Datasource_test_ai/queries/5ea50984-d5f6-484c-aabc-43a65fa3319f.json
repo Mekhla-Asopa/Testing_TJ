@@ -1,0 +1,29 @@
+{
+  "id": "5ea50984-d5f6-484c-aabc-43a65fa3319f",
+  "name": "getTestCases",
+  "options": {
+    "operation": "list_rows",
+    "list_rows": {
+      "limit": 100,
+      "offset": 0,
+      "where_filters": {},
+      "order_filters": {
+        "sort-title": {
+          "id": "sort-title",
+          "column": "title",
+          "order": "asc"
+        }
+      }
+    },
+    "runOnPageLoad": false,
+    "table_id": "b40c5e9e-1ed3-4532-92ff-940cca1c471d",
+    "delete_rows": {
+      "limit": 1,
+      "order_column": "id"
+    }
+  },
+  "dataSourceId": "efede1c0-f241-43d8-889f-79c2bcded4cf",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

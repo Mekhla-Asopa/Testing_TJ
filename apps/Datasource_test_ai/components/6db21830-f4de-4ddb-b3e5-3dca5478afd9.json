@@ -1,0 +1,72 @@
+{
+  "id": "6db21830-f4de-4ddb-b3e5-3dca5478afd9",
+  "name": "actualQuerySelector",
+  "type": "DropdownV2",
+  "pageId": "48416b12-abe1-4c77-9425-829f955bc4c5",
+  "parent": null,
+  "properties": {
+    "label": {
+      "value": "Query"
+    },
+    "placeholder": {
+      "value": "Query discovery unavailable"
+    },
+    "advanced": {
+      "value": true
+    },
+    "schema": {
+      "value": "{{[]}}"
+    },
+    "showSearchInput": {
+      "value": true
+    },
+    "showClearBtn": {
+      "value": true
+    },
+    "disabledState": {
+      "value": true
+    },
+    "tooltip": {
+      "value": "Actual query names cannot be discovered with the currently available MCP capability."
+    }
+  },
+  "general": null,
+  "styles": {
+    "alignment": {
+      "value": "top"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "d2605972-329f-4466-9f96-5d3c308b504d",
+      "type": "desktop",
+      "top": 252,
+      "left": 17,
+      "width": 14,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "6db21830-f4de-4ddb-b3e5-3dca5478afd9",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "3fb5cec0-b997-4f98-bc0c-fcf98a60536a",
+      "type": "mobile",
+      "top": 252,
+      "left": 17,
+      "width": 14,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "6db21830-f4de-4ddb-b3e5-3dca5478afd9",
+      "dimensionUnit": "count"
+    }
+  ]
+}

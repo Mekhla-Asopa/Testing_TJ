@@ -1,0 +1,66 @@
+{
+  "id": "d2d4bc58-d0d7-465f-a930-13547c87b454",
+  "name": "syncQueriesButton",
+  "type": "Button",
+  "pageId": "48416b12-abe1-4c77-9425-829f955bc4c5",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Sync Datasources / Queries"
+    },
+    "tooltip": {
+      "value": "Refreshes discovered datasource metadata. Query discovery remains blocked until the required capability is provided."
+    }
+  },
+  "general": null,
+  "styles": {
+    "icon": {
+      "value": "IconRefresh"
+    },
+    "iconVisibility": {
+      "value": true
+    },
+    "backgroundColor": {
+      "value": "#0e7490"
+    },
+    "borderColor": {
+      "value": "#0e7490"
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "8b6b05f5-a1de-4570-939e-8cf780d211b4",
+      "type": "desktop",
+      "top": 252,
+      "left": 32,
+      "width": 9,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "d2d4bc58-d0d7-465f-a930-13547c87b454",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "767f149c-9b55-44aa-aebf-fcc32a9d3dcd",
+      "type": "mobile",
+      "top": 252,
+      "left": 32,
+      "width": 9,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "d2d4bc58-d0d7-465f-a930-13547c87b454",
+      "dimensionUnit": "count"
+    }
+  ]
+}

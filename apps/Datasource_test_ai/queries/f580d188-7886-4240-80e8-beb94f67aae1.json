@@ -1,0 +1,17 @@
+{
+  "id": "f580d188-7886-4240-80e8-beb94f67aae1",
+  "name": "mssql_ai_connectivity",
+  "options": {
+    "mode": "sql",
+    "query": "SELECT 1 AS connectivity_check",
+    "query_params": [],
+    "runOnPageLoad": false,
+    "runOnDependencyChange": false,
+    "requestConfirmation": false,
+    "showSuccessNotification": false
+  },
+  "dataSourceId": "b827e610-1ec0-4349-b4fc-ec9b05efe47e",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a",
+  "kind": "mssql",
+  "dataSourceType": "default"
+}

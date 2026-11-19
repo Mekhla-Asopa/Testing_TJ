@@ -1,0 +1,63 @@
+{
+  "id": "47925c0c-6a1d-4f00-a903-5b4e66f156ac",
+  "name": "saveSheetsPassed",
+  "options": {
+    "operation": "create_row",
+    "table_id": "d4c19216-53c0-45f8-92bb-370311eee6c5",
+    "create_row": {
+      "0": {
+        "column": "datasource_id",
+        "value": "550c84d4-377e-4db5-9f91-7c180b04f9a0"
+      },
+      "1": {
+        "column": "datasource_name",
+        "value": "googlesheetsv2_ai"
+      },
+      "2": {
+        "column": "datasource_type",
+        "value": "googlesheetsv2"
+      },
+      "3": {
+        "column": "query_id",
+        "value": "0dc048cb-11fd-4fba-99d3-60e9a92ea800"
+      },
+      "4": {
+        "column": "query_name",
+        "value": "googlesheetsv2_ai_list_spreadsheets"
+      },
+      "5": {
+        "column": "execution_date",
+        "value": "{{moment().format('YYYY-MM-DDTHH:mm:ssZ')}}"
+      },
+      "6": {
+        "column": "tester",
+        "value": "{{globals.currentUser?.email || 'QA user'}}"
+      },
+      "7": {
+        "column": "status",
+        "value": "Passed"
+      },
+      "8": {
+        "column": "response",
+        "value": "{{JSON.stringify(queries.googlesheetsv2_ai_list_spreadsheets.data ?? null)}}"
+      },
+      "9": {
+        "column": "error_message",
+        "value": ""
+      },
+      "10": {
+        "column": "execution_time",
+        "value": "{{queries.googlesheetsv2_ai_list_spreadsheets.responseTime || 0}}"
+      },
+      "11": {
+        "column": "environment",
+        "value": "Development"
+      }
+    },
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "efede1c0-f241-43d8-889f-79c2bcded4cf",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "63226b75-8865-4c8e-be1b-51d3cb94647c",
+  "name": "openai_ai_connectivity",
+  "options": {
+    "operation": "chat",
+    "model": "gpt-4o-mini",
+    "prompt": "Reply with exactly: ToolJet OpenAI datasource connected",
+    "system_prompt": "You are a connectivity check. Return only the requested text.",
+    "temperature": "0",
+    "max_tokens": "20",
+    "message_history": [],
+    "runOnPageLoad": false,
+    "runOnDependencyChange": false,
+    "requestConfirmation": true,
+    "confirmationMessage": "Run the OpenAI connectivity query? This may consume API quota.",
+    "showSuccessNotification": false,
+    "encoding_format__m1": "float",
+    "encoding_format__m2": "float",
+    "encoding_format__m3": "float"
+  },
+  "dataSourceId": "fb944d26-8e2c-4ccf-a4b8-fff3514b68aa",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a",
+  "kind": "openai",
+  "dataSourceType": "default"
+}

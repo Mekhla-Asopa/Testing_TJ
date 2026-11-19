@@ -1,0 +1,56 @@
+{
+  "id": "cb368153-8c8b-4977-b12a-f4f1945dfcf7",
+  "name": "dashboardKpis",
+  "type": "Html",
+  "pageId": "08dd63f8-a054-4a98-b65a-18f699f8bf99",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface)\"><div style=\"display:grid;grid-template-columns:1.25fr 1fr 1fr 1fr;gap:16px;height:100%\"><div style=\"padding:18px;background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Discovered _ai datasources</div><div style=\"font-size:28px;font-weight:700;line-height:42px;color:#0E7490\">{{(queries.getPlugins.data || []).length}}</div><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Current QA metadata inventory</div></div><div style=\"padding:18px;background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Passing</div><div style=\"font-size:28px;font-weight:700;line-height:42px;color:var(--cc-success-systemStatus)\">{{(queries.getPlugins.data || []).filter(r => r.status === 'Passed').length}}</div><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Datasource status</div></div><div style=\"padding:18px;background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Failing</div><div style=\"font-size:28px;font-weight:700;line-height:42px;color:var(--cc-error-systemStatus)\">{{(queries.getPlugins.data || []).filter(r => r.status === 'Failed').length}}</div><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Needs QA attention</div></div><div style=\"padding:18px;background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Release ready</div><div style=\"font-size:28px;font-weight:700;line-height:42px\">{{(queries.getPlugins.data || []).filter(r => r.release_status === 'READY').length}}</div><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Mandatory checks clear</div></div></div></div>"
+    },
+    "dynamicHeight": {
+      "value": false
+    },
+    "visibility": {
+      "value": true
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "3bd35dca-86e2-4af1-b234-fc88ca5ef6f4",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 136,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "cb368153-8c8b-4977-b12a-f4f1945dfcf7",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "3c04f4fd-7c1e-4ef4-a6e1-dd56409f7277",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 136,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "cb368153-8c8b-4977-b12a-f4f1945dfcf7",
+      "dimensionUnit": "count"
+    }
+  ]
+}

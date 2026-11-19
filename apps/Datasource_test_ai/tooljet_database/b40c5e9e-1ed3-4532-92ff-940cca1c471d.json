@@ -1,0 +1,263 @@
+{
+  "id": "b40c5e9e-1ed3-4532-92ff-940cca1c471d",
+  "table_name": "test_cases",
+  "schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "integer",
+        "column_default": "nextval(\"d30cbfd0-5a77-4b9f-b9a6-cc27b584421f_id_seq\"",
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "constraints_type": {
+          "is_not_null": true,
+          "is_primary_key": true,
+          "is_unique": false
+        },
+        "keytype": "PRIMARY KEY",
+        "column_id": "03ee3910-e7f5-4f9a-aee8-068cb1b5099e",
+        "configurations": {}
+      },
+      {
+        "column_name": "plugin_id",
+        "data_type": "integer",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "constraints_type": {
+          "is_not_null": true,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "bb80eabc-6b61-4d7e-8959-389f55504e5f",
+        "configurations": {}
+      },
+      {
+        "column_name": "title",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": true,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "2b57bda9-e5f4-4ccd-b8bd-a9515310070b",
+        "configurations": {}
+      },
+      {
+        "column_name": "category",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "01210783-1bc6-4ba9-a787-b15add0baa9f",
+        "configurations": {}
+      },
+      {
+        "column_name": "priority",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "9669acea-bd9c-4dbe-a72b-450212fc2281",
+        "configurations": {}
+      },
+      {
+        "column_name": "expected_result",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "80f2699b-5cee-4828-81b6-65e809287ca6",
+        "configurations": {}
+      },
+      {
+        "column_name": "status",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "2fb44b64-14a1-4c67-8276-404796a57a1a",
+        "configurations": {}
+      },
+      {
+        "column_name": "tester",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "740bd874-7ad6-4956-a3a2-4350435e14cb",
+        "configurations": {}
+      },
+      {
+        "column_name": "comments",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "5c914737-e0f8-4bdb-905c-d779fea18c0d",
+        "configurations": {}
+      },
+      {
+        "column_name": "operation",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "c9af5bae-e947-4a74-a837-3b4f03ab0211",
+        "configurations": {}
+      },
+      {
+        "column_name": "mandatory",
+        "data_type": "boolean",
+        "column_default": "false",
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "7a699c93-2c2e-4184-9d99-35f0619a8ab7",
+        "configurations": {}
+      },
+      {
+        "column_name": "query_definition",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "4f2c9c57-9a81-42af-b282-684b459d6efd",
+        "configurations": {}
+      },
+      {
+        "column_name": "query_id",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "a9a95d76-52df-4847-9d6e-18d24be55fc2",
+        "configurations": {}
+      },
+      {
+        "column_name": "query_name",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "8dd0a05e-efcd-4ae2-b7e8-c891f71bbe9d",
+        "configurations": {}
+      },
+      {
+        "column_name": "datasource_id",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "f4cf9945-b7ea-4cf2-a220-c6cb57e6c43d",
+        "configurations": {}
+      },
+      {
+        "column_name": "datasource_name",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "3fc8b653-26ca-4c17-aa45-708d54245ad5",
+        "configurations": {}
+      }
+    ],
+    "foreign_keys": [
+      {
+        "referenced_table_name": "plugins",
+        "constraint_name": "FK_b90639fee012cd8bbbf0a7502d2",
+        "column_names": [
+          "plugin_id"
+        ],
+        "referenced_column_names": [
+          "id"
+        ],
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "referenced_table_id": "45bdc2cb-f21e-4f22-9f9e-b55c7c82d965"
+      }
+    ]
+  }
+}

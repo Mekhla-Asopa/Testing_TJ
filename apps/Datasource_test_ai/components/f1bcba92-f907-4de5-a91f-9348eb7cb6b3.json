@@ -1,0 +1,56 @@
+{
+  "id": "f1bcba92-f907-4de5-a91f-9348eb7cb6b3",
+  "name": "testingSummary",
+  "type": "Html",
+  "pageId": "89ec89c0-e1e6-4f48-834a-4b281a5bc606",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface)\"><div style=\"display:grid;grid-template-columns:repeat(5,1fr);gap:16px;height:100%\"><div style=\"padding:18px;background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Total tests</div><div style=\"font-size:28px;font-weight:700;line-height:42px;color:#0E7490\">{{(queries.getTestCases.data || []).length}}</div><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Generated metadata</div></div><div style=\"padding:18px;background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Passed</div><div style=\"font-size:28px;font-weight:700;line-height:42px;color:var(--cc-success-systemStatus)\">{{(queries.getTestCases.data || []).filter(r => r.status === 'Passed').length}}</div><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Latest status</div></div><div style=\"padding:18px;background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Failed</div><div style=\"font-size:28px;font-weight:700;line-height:42px;color:var(--cc-error-systemStatus)\">{{(queries.getTestCases.data || []).filter(r => r.status === 'Failed').length}}</div><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Needs investigation</div></div><div style=\"padding:18px;background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Blocked</div><div style=\"font-size:28px;font-weight:700;line-height:42px;color:#B45309\">{{(queries.getTestCases.data || []).filter(r => r.status === 'Blocked').length}}</div><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Configuration required</div></div><div style=\"padding:18px;background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">Pass percentage</div><div style=\"font-size:28px;font-weight:700;line-height:42px\">{{(() => { const a=queries.getTestCases.data||[]; const p=a.filter(r=>r.status==='Passed').length; return a.length ? Math.round(p*1000/a.length)/10 + '%' : '0%'; })()}}</div><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">All configured tests</div></div></div></div>"
+    },
+    "dynamicHeight": {
+      "value": false
+    },
+    "visibility": {
+      "value": true
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "e84021a3-f15b-43c1-b9ba-154d10200889",
+      "type": "desktop",
+      "top": 178,
+      "left": 2,
+      "width": 39,
+      "height": 136,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "f1bcba92-f907-4de5-a91f-9348eb7cb6b3",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "93b71cc0-3484-499d-ad1a-a020b0e5646f",
+      "type": "mobile",
+      "top": 178,
+      "left": 2,
+      "width": 39,
+      "height": 136,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "f1bcba92-f907-4de5-a91f-9348eb7cb6b3",
+      "dimensionUnit": "count"
+    }
+  ]
+}

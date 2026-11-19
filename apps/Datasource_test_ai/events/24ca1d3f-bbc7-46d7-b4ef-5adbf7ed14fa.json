@@ -1,0 +1,14 @@
+{
+  "id": "24ca1d3f-bbc7-46d7-b4ef-5adbf7ed14fa",
+  "name": "Refresh datasource metadata",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "queryId": "7c656548-2154-45b0-a635-5ef511605297",
+    "actionId": "run-query",
+    "queryName": "getPlugins"
+  },
+  "sourceId": "847b34a2-e6c9-4d61-8560-4e332ec2a5ba",
+  "target": "component",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a"
+}

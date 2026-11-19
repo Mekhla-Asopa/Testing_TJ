@@ -1,0 +1,24 @@
+{
+  "id": "c06a8e55-204c-41d8-abd8-c47f19a568bb",
+  "name": "restapi_ai_get",
+  "options": {
+    "method": "get",
+    "url": "/",
+    "url_params": [],
+    "headers": [],
+    "cookies": [],
+    "body": [],
+    "raw_body": null,
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": true,
+    "runOnPageLoad": false,
+    "runOnDependencyChange": false,
+    "requestConfirmation": false,
+    "showSuccessNotification": false
+  },
+  "dataSourceId": "5e775f31-01a8-4953-9f10-9817d087fca6",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}

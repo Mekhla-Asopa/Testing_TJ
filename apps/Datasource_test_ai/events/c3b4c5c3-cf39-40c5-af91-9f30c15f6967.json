@@ -1,0 +1,14 @@
+{
+  "id": "c3b4c5c3-cf39-40c5-af91-9f30c15f6967",
+  "name": "Load datasource metadata",
+  "index": 0,
+  "event": {
+    "eventId": "onPageLoad",
+    "queryId": "7c656548-2154-45b0-a635-5ef511605297",
+    "actionId": "run-query",
+    "queryName": "getPlugins"
+  },
+  "sourceId": "08dd63f8-a054-4a98-b65a-18f699f8bf99",
+  "target": "page",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a"
+}

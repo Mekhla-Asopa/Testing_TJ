@@ -1,0 +1,14 @@
+{
+  "id": "f079e579-1cac-48e1-bc9b-32c3d88910c1",
+  "name": "Explain query discovery limitation",
+  "index": 1,
+  "event": {
+    "eventId": "onClick",
+    "message": "Datasource metadata refreshed. Actual query discovery is blocked by the currently available ToolJet MCP capability.",
+    "actionId": "show-alert",
+    "alertType": "warning"
+  },
+  "sourceId": "d2d4bc58-d0d7-465f-a930-13547c87b454",
+  "target": "component",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a"
+}

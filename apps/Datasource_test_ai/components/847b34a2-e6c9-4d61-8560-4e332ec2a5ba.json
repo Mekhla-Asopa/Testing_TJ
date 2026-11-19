@@ -1,0 +1,53 @@
+{
+  "id": "847b34a2-e6c9-4d61-8560-4e332ec2a5ba",
+  "name": "syncDatasourcesButton",
+  "type": "Button",
+  "pageId": "08dd63f8-a054-4a98-b65a-18f699f8bf99",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Sync Datasources"
+    },
+    "loadingState": {
+      "value": "{{queries.getPlugins.isLoading}}"
+    },
+    "visibility": {
+      "value": true
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "02a0702c-c723-4814-8718-0784f81bc809",
+      "type": "desktop",
+      "top": 176,
+      "left": 32,
+      "width": 9,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "847b34a2-e6c9-4d61-8560-4e332ec2a5ba",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "e2a9cd88-3774-466a-b87b-80120961c1e7",
+      "type": "mobile",
+      "top": 176,
+      "left": 32,
+      "width": 9,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "847b34a2-e6c9-4d61-8560-4e332ec2a5ba",
+      "dimensionUnit": "count"
+    }
+  ]
+}

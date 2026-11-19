@@ -1,0 +1,66 @@
+{
+  "id": "180af887-ff76-4d58-ad78-eee7a9849745",
+  "name": "queryDatasourceSelector",
+  "type": "DropdownV2",
+  "pageId": "48416b12-abe1-4c77-9425-829f955bc4c5",
+  "parent": null,
+  "properties": {
+    "label": {
+      "value": "Datasource"
+    },
+    "placeholder": {
+      "value": "Select an _ai datasource"
+    },
+    "advanced": {
+      "value": true
+    },
+    "schema": {
+      "value": "{{(queries.getDiscoveredPlugins.data || []).filter(r => r.datasource_name).map(r => ({label:r.datasource_name,value:r.datasource_id,caption:r.datasource_type,disable:false,visible:true,default:false}))}}"
+    },
+    "showSearchInput": {
+      "value": true
+    },
+    "showClearBtn": {
+      "value": true
+    }
+  },
+  "general": null,
+  "styles": {
+    "alignment": {
+      "value": "top"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "70ccb49b-4ae7-43e1-a4c8-277d712f908f",
+      "type": "desktop",
+      "top": 252,
+      "left": 2,
+      "width": 14,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "180af887-ff76-4d58-ad78-eee7a9849745",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "5534f138-dc20-4648-a2d4-a92a51d5f70a",
+      "type": "mobile",
+      "top": 252,
+      "left": 2,
+      "width": 14,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "180af887-ff76-4d58-ad78-eee7a9849745",
+      "dimensionUnit": "count"
+    }
+  ]
+}

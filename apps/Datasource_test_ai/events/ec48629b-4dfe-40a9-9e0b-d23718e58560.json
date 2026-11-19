@@ -1,0 +1,14 @@
+{
+  "id": "ec48629b-4dfe-40a9-9e0b-d23718e58560",
+  "name": "Load bounded test metadata",
+  "index": 1,
+  "event": {
+    "eventId": "onPageLoad",
+    "queryId": "5ea50984-d5f6-484c-aabc-43a65fa3319f",
+    "actionId": "run-query",
+    "queryName": "getTestCases"
+  },
+  "sourceId": "89ec89c0-e1e6-4f48-834a-4b281a5bc606",
+  "target": "page",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a"
+}

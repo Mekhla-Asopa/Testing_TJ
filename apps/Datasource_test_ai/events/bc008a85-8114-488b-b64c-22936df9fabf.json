@@ -1,0 +1,14 @@
+{
+  "id": "bc008a85-8114-488b-b64c-22936df9fabf",
+  "name": "Load discovered datasources",
+  "index": 0,
+  "event": {
+    "eventId": "onPageLoad",
+    "queryId": "dd6e7f61-fa23-48b0-b2f6-d25dcc10efd7",
+    "actionId": "run-query",
+    "queryName": "getDiscoveredPlugins"
+  },
+  "sourceId": "48416b12-abe1-4c77-9425-829f955bc4c5",
+  "target": "page",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a"
+}

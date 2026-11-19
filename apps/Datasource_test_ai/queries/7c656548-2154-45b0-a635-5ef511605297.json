@@ -1,0 +1,30 @@
+{
+  "id": "7c656548-2154-45b0-a635-5ef511605297",
+  "name": "getPlugins",
+  "options": {
+    "operation": "list_rows",
+    "list_rows": {
+      "limit": 100,
+      "offset": 0,
+      "order_filters": {
+        "sort-name": {
+          "id": "sort-name",
+          "column": "name",
+          "order": "asc"
+        }
+      },
+      "where_filters": {}
+    },
+    "runOnPageLoad": false,
+    "table_id": "2557f8bd-44ad-4176-8657-815df9a2292d",
+    "table_name": "",
+    "delete_rows": {
+      "limit": 1,
+      "order_column": "id"
+    }
+  },
+  "dataSourceId": "efede1c0-f241-43d8-889f-79c2bcded4cf",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

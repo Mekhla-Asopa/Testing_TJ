@@ -1,0 +1,22 @@
+{
+  "id": "0dc048cb-11fd-4fba-99d3-60e9a92ea800",
+  "name": "googlesheetsv2_ai_list_spreadsheets",
+  "options": {
+    "operation": "list_all_spreadsheets",
+    "page_size": "25",
+    "filter": "",
+    "page_token": "",
+    "runOnPageLoad": false,
+    "runOnDependencyChange": false,
+    "requestConfirmation": false,
+    "showSuccessNotification": false,
+    "majorDimension": "ROWS",
+    "valueRenderOption": "FORMATTED_VALUE",
+    "dateTimeRenderOption": "SERIAL_NUMBER",
+    "ValueInputOption": "RAW"
+  },
+  "dataSourceId": "550c84d4-377e-4db5-9f91-7c180b04f9a0",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a",
+  "kind": "googlesheetsv2",
+  "dataSourceType": "default"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "81e5eeb4-2177-4f71-95f6-c93cbc4b27d8",
+  "name": "Refresh discovered datasources",
+  "index": 0,
+  "event": {
+    "eventId": "onPageLoad",
+    "queryId": "dd6e7f61-fa23-48b0-b2f6-d25dcc10efd7",
+    "actionId": "run-query",
+    "queryName": "getDiscoveredPlugins"
+  },
+  "sourceId": "89ec89c0-e1e6-4f48-834a-4b281a5bc606",
+  "target": "page",
+  "appVersionId": "59dfb2b7-0c19-4f62-86db-4a983d1f6f7a"
+}
