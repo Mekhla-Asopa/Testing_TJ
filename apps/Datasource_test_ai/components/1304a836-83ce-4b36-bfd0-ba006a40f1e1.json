@@ -1,0 +1,274 @@
+{
+  "id": "1304a836-83ce-4b36-bfd0-ba006a40f1e1",
+  "name": "queryDiscoveryStatusTable",
+  "type": "Table",
+  "pageId": "bbe9c240-23a8-4090-89b3-dc979624270a",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": "Datasource Query Discovery Status"
+    },
+    "dataSourceSelector": {
+      "value": "rawJson"
+    },
+    "data": {
+      "value": "{{(queries.getDiscoveredPlugins.data || []).filter(r => !components.queryDatasourceSelector?.value || r.datasource_id === components.queryDatasourceSelector?.value).map(r => ({datasource_name:r.datasource_name,datasource_type:r.datasource_type,query_name:'',status:'Blocked',last_run:'-',reason:'ToolJet does not expose query discovery through the currently available MCP capability.'}))}}"
+    },
+    "columns": {
+      "value": [
+        {
+          "name": "Datasource",
+          "key": "datasource_name",
+          "id": "datasource_name",
+          "columnType": "string",
+          "columnSize": 190
+        },
+        {
+          "name": "Type",
+          "key": "datasource_type",
+          "id": "datasource_type",
+          "columnType": "string",
+          "columnSize": 130
+        },
+        {
+          "name": "Actual Query",
+          "key": "query_name",
+          "id": "query_name",
+          "columnType": "string",
+          "columnSize": 200
+        },
+        {
+          "name": "Status",
+          "key": "status",
+          "id": "status",
+          "columnType": "string",
+          "columnSize": 110
+        },
+        {
+          "name": "Last Run",
+          "key": "last_run",
+          "id": "last_run",
+          "columnType": "string",
+          "columnSize": 110
+        },
+        {
+          "name": "Reason",
+          "key": "reason",
+          "id": "reason",
+          "columnType": "string",
+          "columnSize": 500
+        }
+      ]
+    },
+    "displaySearchBox": {
+      "value": true
+    },
+    "showDownloadButton": {
+      "value": true
+    },
+    "showFilterButton": {
+      "value": true
+    },
+    "allowSelection": {
+      "value": false
+    },
+    "enablePagination": {
+      "value": true
+    },
+    "rowsPerPage": {
+      "value": 5
+    },
+    "useDynamicColumn": {
+      "value": "{{false}}"
+    },
+    "columnData": {
+      "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+    },
+    "autogenerateColumns": {
+      "value": true,
+      "generateNestedColumns": true
+    },
+    "visible": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "serverSidePagination": {
+      "value": "{{false}}"
+    },
+    "enableNextButton": {
+      "value": "{{true}}"
+    },
+    "enablePrevButton": {
+      "value": "{{true}}"
+    },
+    "totalRecords": {
+      "value": "{{10}}"
+    },
+    "serverSideSort": {
+      "value": "{{false}}"
+    },
+    "serverSideFilter": {
+      "value": "{{false}}"
+    },
+    "isAllColumnsEditable": {
+      "value": "{{false}}"
+    },
+    "showBulkUpdateActions": {
+      "value": "{{true}}"
+    },
+    "showBulkSelector": {
+      "value": "{{false}}"
+    },
+    "highlightSelectedRow": {
+      "value": "{{false}}"
+    },
+    "columnSizes": {
+      "value": "{{({})}}"
+    },
+    "actions": {
+      "value": []
+    },
+    "enabledSort": {
+      "value": "{{true}}"
+    },
+    "hideColumnSelectorButton": {
+      "value": "{{false}}"
+    },
+    "defaultSelectedRow": {
+      "value": "{{{\"id\":1}}}"
+    },
+    "showAddNewRowButton": {
+      "value": "{{true}}"
+    },
+    "showRefreshButton": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "selectRowOnCellEdit": {
+      "value": "{{false}}"
+    },
+    "enableExpandableRows": {
+      "value": "{{false}}"
+    },
+    "expansionHeight": {
+      "value": "{{229}}"
+    },
+    "disableRowDeselection": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "cssClass": {
+      "value": ""
+    },
+    "columnTitleColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "columnBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "containerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "selectedRowColor": {
+      "value": "var(--cc-surface2-surface)"
+    },
+    "columnHeaderWrap": {
+      "value": "fixed"
+    },
+    "headerCasing": {
+      "value": "none"
+    },
+    "actionButtonRadius": {
+      "value": "0"
+    },
+    "cellSize": {
+      "value": "regular"
+    },
+    "borderRadius": {
+      "value": "6"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "tableType": {
+      "value": "table-classic"
+    },
+    "maxRowHeight": {
+      "value": "auto"
+    },
+    "maxRowHeightValue": {
+      "value": "{{0}}"
+    },
+    "contentWrap": {
+      "value": "{{false}}"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "padding": {
+      "value": "default"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "b272094f-af69-47da-8b85-6bae02a6c10b",
+      "type": "desktop",
+      "top": 468,
+      "left": 2,
+      "width": 39,
+      "height": 400,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "1304a836-83ce-4b36-bfd0-ba006a40f1e1",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "8fa27b11-7aa0-4b8c-bc3c-05955f9d5ecf",
+      "type": "mobile",
+      "top": 468,
+      "left": 2,
+      "width": 39,
+      "height": 400,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "1304a836-83ce-4b36-bfd0-ba006a40f1e1",
+      "dimensionUnit": "count"
+    }
+  ]
+}

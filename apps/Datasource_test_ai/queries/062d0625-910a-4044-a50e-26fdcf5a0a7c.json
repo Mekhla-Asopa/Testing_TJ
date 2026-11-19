@@ -1,0 +1,64 @@
+{
+  "id": "062d0625-910a-4044-a50e-26fdcf5a0a7c",
+  "name": "savePgFailed",
+  "options": {
+    "operation": "create_row",
+    "table_id": "b4f9343d-4319-434b-9099-f932b514ab24",
+    "create_row": {
+      "0": {
+        "column": "datasource_id",
+        "value": "07a1094e-9ce0-48f4-8fcc-7b5ce115fa5c"
+      },
+      "1": {
+        "column": "datasource_name",
+        "value": "postgresql_ai"
+      },
+      "2": {
+        "column": "datasource_type",
+        "value": "postgresql"
+      },
+      "3": {
+        "column": "query_id",
+        "value": "94fb5cd2-681f-43b6-95b9-b8cbe0205616"
+      },
+      "4": {
+        "column": "query_name",
+        "value": "postgresql_ai_connectivity"
+      },
+      "5": {
+        "column": "execution_date",
+        "value": "{{moment().format('YYYY-MM-DDTHH:mm:ssZ')}}"
+      },
+      "6": {
+        "column": "tester",
+        "value": "{{globals.currentUser?.email || 'QA user'}}"
+      },
+      "7": {
+        "column": "status",
+        "value": "Failed"
+      },
+      "8": {
+        "column": "response",
+        "value": ""
+      },
+      "9": {
+        "column": "error_message",
+        "value": "{{queries.94fb5cd2-681f-43b6-95b9-b8cbe0205616.error?.message || queries.94fb5cd2-681f-43b6-95b9-b8cbe0205616.error || 'Query failed'}}"
+      },
+      "10": {
+        "column": "execution_time",
+        "value": "{{queries.94fb5cd2-681f-43b6-95b9-b8cbe0205616.responseTime || 0}}"
+      },
+      "11": {
+        "column": "environment",
+        "value": "Development"
+      }
+    },
+    "runOnPageLoad": false,
+    "table_name": ""
+  },
+  "dataSourceId": "efede1c0-f241-43d8-889f-79c2bcded4cf",
+  "appVersionId": "c9aa3db6-0fd2-4adf-8dce-cd33b9127245",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

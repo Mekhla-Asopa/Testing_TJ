@@ -1,0 +1,53 @@
+{
+  "id": "4c11c232-6339-4a52-80dc-58bd420a45bb",
+  "name": "queryHeader",
+  "type": "Html",
+  "pageId": "bbe9c240-23a8-4090-89b3-dc979624270a",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;background:var(--cc-appBackground-surface)\"><div style=\"height:100%;padding:12px 4px;box-sizing:border-box;color:#0f172a\"><div style=\"font-size:20px;font-weight:700\">Datasource Queries</div><div style=\"font-size:12px;color:#64748b;margin-top:5px\">Actual ToolJet query discovery and execution readiness, with no fabricated query names</div></div></div>"
+    },
+    "dynamicHeight": {
+      "value": false
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "a98566c0-d445-4dce-85b0-9d3023fbacfe",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 90,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "4c11c232-6339-4a52-80dc-58bd420a45bb",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "1a39dc92-8930-4a64-a9fa-99768be8c6d9",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 90,
+      "widthPx": null,
+      "fillWidth": null,
+      "grow": null,
+      "minWidthPx": null,
+      "componentId": "4c11c232-6339-4a52-80dc-58bd420a45bb",
+      "dimensionUnit": "count"
+    }
+  ]
+}

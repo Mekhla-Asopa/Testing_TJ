@@ -1,0 +1,15 @@
+{
+  "id": "d4f6e2a1-b60c-4c17-aa46-5381ea8148c1",
+  "name": "Explain query configuration requirement",
+  "index": 0,
+  "event": {
+    "ref": "run::run-test",
+    "eventId": "onClick",
+    "message": "Runtime query orchestration requires the built-in RunJS datasource to be approved and configured.",
+    "actionId": "show-alert",
+    "alertType": "warning"
+  },
+  "sourceId": "ffe96886-dc4e-47af-aef6-f72246a636a4",
+  "target": "table_column",
+  "appVersionId": "c9aa3db6-0fd2-4adf-8dce-cd33b9127245"
+}

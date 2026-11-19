@@ -1,0 +1,63 @@
+{
+  "id": "fa96a188-b4e3-4ba8-844a-467c5391766a",
+  "name": "saveMysqlPassed",
+  "options": {
+    "operation": "create_row",
+    "table_id": "b4f9343d-4319-434b-9099-f932b514ab24",
+    "create_row": {
+      "0": {
+        "column": "datasource_id",
+        "value": "7037eb2b-4e77-40cd-b6ba-62863f563e0c"
+      },
+      "1": {
+        "column": "datasource_name",
+        "value": "mysql_ai"
+      },
+      "2": {
+        "column": "datasource_type",
+        "value": "mysql"
+      },
+      "3": {
+        "column": "query_id",
+        "value": "46edad31-61d6-4df7-a243-769c02bb8f32"
+      },
+      "4": {
+        "column": "query_name",
+        "value": "mysql_ai_connectivity"
+      },
+      "5": {
+        "column": "execution_date",
+        "value": "{{moment().format('YYYY-MM-DDTHH:mm:ssZ')}}"
+      },
+      "6": {
+        "column": "tester",
+        "value": "{{globals.currentUser?.email || 'QA user'}}"
+      },
+      "7": {
+        "column": "status",
+        "value": "Passed"
+      },
+      "8": {
+        "column": "response",
+        "value": "{{JSON.stringify(queries.mysql_ai_connectivity.data ?? null)}}"
+      },
+      "9": {
+        "column": "error_message",
+        "value": ""
+      },
+      "10": {
+        "column": "execution_time",
+        "value": "{{queries.mysql_ai_connectivity.responseTime || 0}}"
+      },
+      "11": {
+        "column": "environment",
+        "value": "Development"
+      }
+    },
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "efede1c0-f241-43d8-889f-79c2bcded4cf",
+  "appVersionId": "c9aa3db6-0fd2-4adf-8dce-cd33b9127245",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}
